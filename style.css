@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px){
+
+    div#navbarNav{
+        justify-content: center;
+    }
+}
+li{
+    width: 100px;
+}
