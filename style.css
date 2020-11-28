@@ -3,7 +3,37 @@
     div#navbarNav{
         justify-content: center;
     }
+    .main-img img{
+        
+        display: none;
+        }
 }
+@media screen and (min-width: 568px){
+    .main-img img{
+        display: none;
+    }
+}
+
 li{
     width: 100px;
+}
+.main-img{
+    margin-top: 56px;
+    width: 100%;
+}
+.main-img img{
+    width: 100%;
+    max-height: 300px
+}
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.itens div{
+    margin-bottom: 15px;
+}
+body{
+    background-color: #d6d8da;
+
 }
