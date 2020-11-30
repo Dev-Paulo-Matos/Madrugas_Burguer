@@ -18,6 +18,14 @@
     padding-left: 10px;
   }
 }
+@media screen and (max-width:600px){
+  .botoes a{
+    max-width: 140px;
+    font-size: 12pt;
+    height: 50px;
+    
+  }
+}
 *{
     scroll-behavior: smooth;
 }
@@ -73,11 +81,23 @@ font-family: 'Fredoka One', cursive,sans-serif;
 }
 .google{
   border: solid black 1px;
+  background-color: white;
 }
 .google:hover{
-  background-color: rgb(240, 22, 22);
+  background-color: rgb(218, 64, 64);
 }
 .align{
   text-align: center;
   padding-bottom: 20px;
+}
+.local{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.local p{
+  margin-top: 30px;
+  text-align: center;
+  padding-right: 20px;
 }
